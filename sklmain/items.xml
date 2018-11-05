@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<SKLaunch>
+  <GroupItem>
+    <Caption>PG</Caption>
+    <Comment />
+    <KeyChar>80</KeyChar>
+    <KeyShift>0</KeyShift>
+    <ShortcutItem>
+      <Caption>Hidemaru</Caption>
+      <Comment />
+      <Path>C:\Program Files\Hidemaru\Hidemaru.exe</Path>
+      <DirPath>C:\Program Files\Hidemaru</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>VC++6</Caption>
+      <Comment />
+      <Path>C:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin\MSDEV.EXE</Path>
+      <DirPath>C:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>VB6</Caption>
+      <Comment />
+      <Path>C:\Program Files\Microsoft Visual Studio\VB98\VB6.EXE</Path>
+      <DirPath>C:\Program Files\Microsoft Visual Studio\VB98</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>APIビューア</Caption>
+      <Comment />
+      <Path>C:\Program Files\Microsoft Visual Studio\Common\Tools\Winapi\APILOAD.EXE</Path>
+      <DirPath>C:\Program Files\Microsoft Visual Studio\Common\Tools\Winapi</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>SPYXX</Caption>
+      <Comment />
+      <Path>C:\Program Files\Microsoft Visual Studio\Common\Tools\SPYXX.EXE</Path>
+      <DirPath>C:\Program Files\Microsoft Visual Studio\Common\Tools</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>eclipse</Caption>
+      <Comment />
+      <Path>E:\yuto\pg\java\eclipse\eclipse.exe</Path>
+      <DirPath>E:\yuto\pg\java\eclipse</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>cse</Caption>
+      <Comment />
+      <Path>E:\yuto\pg\cse\cse.exe</Path>
+      <DirPath>E:\yuto\pg\cse</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+  </GroupItem>
+  <GroupItem>
+    <Caption>FOLDER</Caption>
+    <Comment />
+    <KeyChar>70</KeyChar>
+    <KeyShift>0</KeyShift>
+    <ShortcutItem>
+      <Caption>yuto</Caption>
+      <Comment />
+      <Path>E:\yuto</Path>
+      <DirPath>E:\yuto\</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>pg</Caption>
+      <Comment />
+      <Path>E:\yuto\pg</Path>
+      <DirPath>E:\yuto\pg</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>E:\yuto\cg\pg.ico</IconPath>
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>net</Caption>
+      <Comment />
+      <Path>E:\yuto\net\html3</Path>
+      <DirPath>E:\yuto\net</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>E:\yuto\cg\net.ico</IconPath>
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>共有</Caption>
+      <Comment />
+      <Path>E:\共有\</Path>
+      <DirPath>E:\共有</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>C:\WINNT\system32\SHELL32.DLL</IconPath>
+      <IconIndex>85</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>Program Files</Caption>
+      <Comment />
+      <Path>C:\Program Files\</Path>
+      <DirPath>C:\Program Files</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>C:\WINNT\system32\SHELL32.DLL</IconPath>
+      <IconIndex>71</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>tomcat</Caption>
+      <Comment />
+      <Path>C:\Program Files\Apache Software Foundation\Tomcat 5.0</Path>
+      <DirPath>C:\Program Files\Apache Software Foundation\Tomcat 5.0</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>C:\Program Files\Apache Software Foundation\Tomcat 5.0\tomcat.ico</IconPath>
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>eclipse/workspace</Caption>
+      <Comment />
+      <Path>E:\yuto\pg\java\eclipse\workspace</Path>
+      <DirPath>E:\yuto\pg\java\eclipse\workspace</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>E:\yuto\pg\java\eclipse\eclipse.exe</IconPath>
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>cribo_share</Caption>
+      <Comment />
+      <Path>\\Cribo\cribo_share</Path>
+      <DirPath>\\Cribo\cribo_share</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>C:\WINNT\system32\SHELL32.DLL</IconPath>
+      <IconIndex>103</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+  </GroupItem>
+  <GroupItem>
+    <Caption>NET</Caption>
+    <Comment />
+    <KeyChar>78</KeyChar>
+    <KeyShift>0</KeyShift>
+    <ShortcutItem>
+      <Caption>Beckey!</Caption>
+      <Comment />
+      <Path>C:\Program Files\RimArts\B2\B2.exe</Path>
+      <DirPath>C:\Program Files\RimArts\B2</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>78</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>MSNメッセンジャー</Caption>
+      <Comment />
+      <Path>C:\Program Files\MSN Messenger\msnmsgr.exe</Path>
+      <DirPath>C:\Program Files\MSN Messenger</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>C:\Program Files\MSN Messenger\msnmsgr.exe</IconPath>
+      <IconIndex>1</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>SKRWATCH</Caption>
+      <Comment />
+      <Path>E:\yuto\net\skrw021\SKRWATCH.EXE</Path>
+      <DirPath>E:\yuto\net\skrw021</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>FFFTP</Caption>
+      <Comment />
+      <Path>C:\Program Files\ffftp\FFFTP.exe</Path>
+      <DirPath>C:\Program Files\ffftp</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>Hexion</Caption>
+      <Comment />
+      <Path>E:\yuto\pg\vb\making\Hexion\Hexion101.exe</Path>
+      <DirPath>E:\yuto\pg\vb\making\Hexion</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>irvine</Caption>
+      <Comment />
+      <Path>E:\yuto\net\irvine1_0_0\irvine.exe</Path>
+      <DirPath>E:\yuto\net\irvine1_0_0</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>Guevara</Caption>
+      <Comment />
+      <Path>C:\Program Files\Terminal Emulator Guevara\Guevara.exe</Path>
+      <DirPath>C:\Program Files\Terminal Emulator Guevara</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>WinSCP3</Caption>
+      <Comment />
+      <Path>C:\Program Files\WinSCP3\WinSCP3.exe</Path>
+      <DirPath>C:\Program Files\WinSCP3</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>Winny</Caption>
+      <Comment />
+      <Path>E:\yuto\net\miami\Winny.exe</Path>
+      <DirPath>E:\yuto\net\miami</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>87</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+  </GroupItem>
+  <GroupItem>
+    <Caption>CG</Caption>
+    <Comment />
+    <KeyChar>67</KeyChar>
+    <KeyShift>0</KeyShift>
+    <ShortcutItem>
+      <Caption>Photoshp</Caption>
+      <Comment />
+      <Path>C:\Program Files\Adobe\Photoshop 5.0J\Photoshp.exe</Path>
+      <DirPath>C:\Program Files\Adobe\Photoshop 5.0J</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>Icon Studio</Caption>
+      <Comment />
+      <Path>C:\Program Files\KH Software Factory\KH IconStudio2001\Professional Edition\iconstd.exe</Path>
+      <DirPath>C:\Program Files\KH Software Factory\KH IconStudio2001\Professional Edition</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>Leeyes</Caption>
+      <Comment />
+      <Path>E:\yuto\cg\leeyes192\Leeyes.exe</Path>
+      <DirPath>E:\yuto\cg\leeyes192</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>edge</Caption>
+      <Comment />
+      <Path>E:\yuto\cg\edge128\edge.exe</Path>
+      <DirPath>E:\yuto\cg\edge128</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>E:\yuto\cg\edge128\edge.exe</IconPath>
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>Illustrator</Caption>
+      <Comment />
+      <Path>C:\Program Files\Adobe\Illustrator 8.0J\Illustrator.exe</Path>
+      <DirPath>C:\Program Files\Adobe\Illustrator 8.0J</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>gifanim</Caption>
+      <Comment />
+      <Path>E:\yuto\cg\Gifanim\gifanim.exe</Path>
+      <DirPath>E:\yuto\cg\Gifanim</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+  </GroupItem>
+  <GroupItem>
+    <Caption>OFFICE</Caption>
+    <Comment />
+    <KeyChar>79</KeyChar>
+    <KeyShift>0</KeyShift>
+    <ShortcutItem>
+      <Caption>WORD</Caption>
+      <Comment />
+      <Path>C:\Program Files\Microsoft Office\Office\WINWORD.EXE</Path>
+      <DirPath>C:\Program Files\Microsoft Office\Office</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>EXCEL</Caption>
+      <Comment />
+      <Path>C:\Program Files\Microsoft Office\Office\EXCEL.EXE</Path>
+      <DirPath>C:\Program Files\Microsoft Office\Office</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+  </GroupItem>
+  <GroupItem>
+    <Caption>WAVE</Caption>
+    <Comment />
+    <KeyChar>77</KeyChar>
+    <KeyShift>0</KeyShift>
+    <ShortcutItem>
+      <Caption>winamp</Caption>
+      <Comment />
+      <Path>C:\Program Files\Winamp\winamp.exe</Path>
+      <DirPath>C:\Program Files\Winamp</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>77</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>SuperTagEditor</Caption>
+      <Comment />
+      <Path>E:\yuto\wave\ste201\SuperTagEditor.exe</Path>
+      <DirPath>E:\yuto\wave\ste201</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>daemon</Caption>
+      <Comment />
+      <Path>C:\Program Files\D-Tools\daemon.exe</Path>
+      <DirPath>C:\Program Files\D-Tools</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>CdManipulator</Caption>
+      <Comment />
+      <Path>C:\Program Files\cdm\CdManipulator.exe</Path>
+      <DirPath>C:\Program Files\cdm</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>AudioEncoder</Caption>
+      <Comment />
+      <Path>E:\yuto\wave\AudioEncoder\AudioEncoder.exe</Path>
+      <DirPath>E:\yuto\wave\AudioEncoder</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>iTunes</Caption>
+      <Comment />
+      <Path>M:\Program Files\iTunes\iTunes.exe</Path>
+      <DirPath>M:\Program Files\iTunes</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>M:\Program Files\iTunes\iTunes.exe</IconPath>
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>CD2WAV32</Caption>
+      <Comment />
+      <Path>E:\yuto\wave\cd2wav32_r321\CD2WAV32.EXE</Path>
+      <DirPath>E:\yuto\wave\cd2wav32_r321</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+  </GroupItem>
+  <GroupItem>
+    <Caption>TOOL</Caption>
+    <Comment />
+    <KeyChar>84</KeyChar>
+    <KeyShift>0</KeyShift>
+    <ShortcutItem>
+      <Caption>FontPnP</Caption>
+      <Comment />
+      <Path>E:\yuto\font\fontpnp100b9\FontPnP.exe</Path>
+      <DirPath>E:\yuto\font\fontpnp100b9</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>65</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>kanauti</Caption>
+      <Comment />
+      <Path>E:\yuto\font\KANAFONT\kanauti.exe</Path>
+      <DirPath>E:\yuto\font\KANAFONT</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>xfree86</Caption>
+      <Comment />
+      <Path>E:\cygwin\usr\X11R6\bin\xfree86.bat</Path>
+      <DirPath>E:\cygwin\usr\X11R6\bin</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath>E:\cygwin\cygwin.ico</IconPath>
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>Microsoft Word</Caption>
+      <Comment />
+      <Path>C:\Documents and Settings\All Users.WINNT\スタート メニュー\プログラム\Microsoft Word.lnk</Path>
+      <DirPath>C:\Documents and Settings\All Users.WINNT\スタート メニュー\プログラム</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+  </GroupItem>
+  <GroupItem>
+    <Caption>BROWSER</Caption>
+    <Comment />
+    <KeyChar>66</KeyChar>
+    <KeyShift>0</KeyShift>
+    <ShortcutItem>
+      <Caption>Sleipnir</Caption>
+      <Comment />
+      <Path>E:\共有\sleipnir\Sleipnir.exe</Path>
+      <DirPath>E:\共有\sleipnir</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>66</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>sylera2</Caption>
+      <Comment />
+      <Path>E:\共有\sylera-gre-2[1].1.5\sylera2.exe</Path>
+      <DirPath>E:\共有\sylera-gre-2[1].1.5</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>Miech</Caption>
+      <Comment />
+      <Path>E:\yuto\net\20040408 miech 0.1.30.543\Miech.exe</Path>
+      <DirPath>E:\yuto\net\20040408 miech 0.1.30.543</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>fub</Caption>
+      <Comment />
+      <Path>E:\共有\fub_net\fub.exe</Path>
+      <DirPath>E:\共有\fub_net</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>IEXPLORE</Caption>
+      <Comment />
+      <Path>C:\Program Files\Internet Explorer\IEXPLORE.EXE</Path>
+      <DirPath>C:\Program Files\Internet Explorer</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>69</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>aaa</Caption>
+      <Comment />
+      <Path>C:\Documents and Settings\yuto\デスクトップ\aaa.txt</Path>
+      <DirPath>C:\Documents and Settings\yuto\デスクトップ</DirPath>
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>49</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>未実装リスト</Caption>
+      <Comment />
+      <Path>未実装リスト.txt</Path>
+      <DirPath />
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+    <ShortcutItem>
+      <Caption>room</Caption>
+      <Comment />
+      <Path>..\room</Path>
+      <DirPath />
+      <Param />
+      <ShowCmd>1</ShowCmd>
+      <IconPath />
+      <IconIndex>0</IconIndex>
+      <KeyChar>0</KeyChar>
+      <KeyShift>0</KeyShift>
+    </ShortcutItem>
+  </GroupItem>
+</SKLaunch>

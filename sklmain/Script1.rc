@@ -1,0 +1,457 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "skl2.ico"
+IDI_ICON_TASKTRAY       ICON    DISCARDABLE     "skl_s.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "アイテムの表示...",           IDM_MENU1_SHOW
+        MENUITEM SEPARATOR
+        MENUITEM "アイテムの編集...",           IDM_MENU1_ITEM
+        MENUITEM "オプション...",               IDM_MENU1_OPTION
+        MENUITEM SEPARATOR
+        MENUITEM "スタートアップに登録...",     IDM_MENU1_STARTUP
+        MENUITEM "ショートカットファイルの出力...", IDM_MENU1_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "バージョン情報...",           IDM_MENU1_VERSION
+        MENUITEM "ヘルプ...",                   IDM_MENU1_HELP
+        MENUITEM "作成元へ行く...",             IDM_MENU1_GOTO
+        MENUITEM SEPARATOR
+        MENUITEM "終了",                        IDM_MENU1_END
+    END
+END
+
+IDR_MENU2 MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "アイテムを起動",              IDM_MENU2_FILEOPEN
+        MENUITEM "フォルダを開く",              IDM_MENU2_FOLDEROPEN
+        MENUITEM SEPARATOR
+        MENUITEM "隠す",                        IDM_MENU2_HIDE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VERSION DIALOG DISCARDABLE  0, 0, 107, 69
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | 
+    WS_CAPTION
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,27,48,50,14
+    CTEXT           "",IDC_LABEL,7,7,93,33
+END
+
+IDD_ITEM DIALOGEX 0, 0, 187, 141
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | 
+    WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "アイテムの編集"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,34,115,50,19
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,101,116,50,18
+END
+
+IDD_OPTION_ANIME DIALOG DISCARDABLE  0, 0, 177, 213
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "アニメーション"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "最大半径",IDC_STATIC,16,25,28,8
+    LTEXT           "最小半径",IDC_STATIC,16,43,28,8
+    LTEXT           "アイコンの間隔",IDC_STATIC,16,61,45,8
+    LTEXT           "回転量",IDC_STATIC,16,79,22,8
+    LTEXT           "滑らかさ",IDC_STATIC,16,97,26,8
+    LTEXT           "速さ",IDC_STATIC,16,115,13,8
+    CONTROL         "半径の自動調整",IDC_AUTOR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,7,64,10
+    LTEXT           "暗くする描画方法",IDC_STATIC,16,133,52,8
+    LTEXT           "暗くする量",IDC_STATIC,17,151,31,8
+    CONTROL         "Slider3",IDC_MAXR,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,86,21,78,16
+    CONTROL         "Slider4",IDC_MINR,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,86,39,78,16
+    CONTROL         "Slider5",IDC_ICONITV,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,86,57,78,16
+    CONTROL         "Slider6",IDC_ROTERAD,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,86,74,78,16
+    CONTROL         "Slider7",IDC_SMOOTH,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,86,92,78,16
+    CONTROL         "Slider8",IDC_ROTETIME,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,86,110,78,16
+    COMBOBOX        IDC_DARKTYPE,91,130,69,13,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Slider9",IDC_DARKVALUE,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,86,147,78,16
+    PUSHBUTTON      "初期状態に戻す",IDC_DEFAULT_ANIME,102,178,58,19
+END
+
+IDD_OPTION_INPUT DIALOG DISCARDABLE  0, 0, 150, 207
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "入力関連"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "HotKey1",IDC_HOTKEY,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,9,92,80,14
+    LTEXT           "ショートカットキー",IDC_STATIC,9,9,52,8
+    COMBOBOX        IDC_KEY_COMBO,9,21,80,12,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_KEY_LIST,9,37,80,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "設定",IDC_KEY_EDIT,9,111,34,16
+    PUSHBUTTON      "削除",IDC_KEY_DEL,55,111,34,16
+    CONTROL         "ジャンプキーよりショートカットキーを優先",
+                    IDC_SHORTKEYPRIORITY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,141,135,10
+    CONTROL         "アクセスキーの使用",IDC_BOOLACCESSKEY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,153,75,10
+    PUSHBUTTON      "初期状態に戻す",IDC_DEFAULT_INPUT,81,175,59,19
+END
+
+IDD_OPTION_ACTION DIALOG DISCARDABLE  0, 0, 231, 273
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "動作"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "アイテムの初期位置",IDC_STATIC,17,14,60,8
+    LTEXT           "アイテム表示中に表示キーを押下した時",IDC_STATIC,17,31,
+                    118,8
+    LTEXT           "アニメーションの中心座標",IDC_STATIC,17,48,76,8
+    LTEXT           "X座標",IDC_STATIC,18,65,19,8
+    LTEXT           "Y座標",IDC_STATIC,107,64,21,10
+    LTEXT           "左クリックの動作",IDC_STATIC,17,82,50,8
+    LTEXT           "ホイールクリックの動作",IDC_STATIC,17,99,69,8
+    LTEXT           "右クリックの動作",IDC_STATIC,17,116,50,8
+    CONTROL         "左右の回転を反転する",IDC_INVROTE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,131,82,10
+    CONTROL         "デスクトップを右ダブルクリックしてアイテム表示",
+                    IDC_BOOLDESKTOPCLICK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,148,155,10
+    CONTROL         "マウスで円を描いてアイテム表示",IDC_BOOLROUNDMOUSE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,165,112,10
+    LTEXT           "回転数",IDC_STATIC,17,182,22,8
+    LTEXT           "回転方向",IDC_STATIC,107,198,28,8
+    LTEXT           "ダブルクリックでアイテム表示",IDC_STATIC,17,216,87,8
+    COMBOBOX        IDC_DEFAULTPOS,143,12,74,15,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_HOTKEYACTION,143,29,74,12,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CENTERPOS,143,46,74,12,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_CENTER_X,51,63,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CENTER_Y,143,63,31,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_MOUSEL,143,80,74,12,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_MOUSEM,143,97,74,12,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_MOUSER,143,114,74,12,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_INTDBLCLICK,143,214,74,15,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ROUNDMOUSE_DIRECTION,142,196,74,12,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "初期状態に戻す",IDC_DEFAULT_ACTION,154,247,62,18
+    LISTBOX         IDC_ROUNDMOUSE_VALUE,50,180,46,12,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_ROUNDMOUSE_TIMEOUT,162,180,54,12,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "タイムアウト",IDC_STATIC,107,182,36,8
+END
+
+IDD_OPTION_MESSAGE DIALOG DISCARDABLE  0, 0, 163, 143
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "ﾌﾟﾛﾊﾟﾃｨ ﾍﾟｰｼﾞ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "メッセージの表示",IDC_BOOLMSG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,11,66,10
+    EDITTEXT        IDC_MSGSTYLE,78,68,70,30,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "メッセージの書式",IDC_STATIC,13,68,51,8
+    LTEXT           "メッセージの位置",IDC_STATIC,13,32,51,8
+    COMBOBOX        IDC_MSGPOS,78,30,70,20,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "文字の揃え",IDC_STATIC,13,50,35,8
+    COMBOBOX        IDC_MSGALIGN,78,48,70,12,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "フォントの変更...",IDC_FONT,13,109,61,18
+    PUSHBUTTON      "初期状態に戻す",IDC_DEFAULT_MESSAGE,88,109,61,18
+END
+
+IDD_OPTION_SE DIALOG DISCARDABLE  0, 0, 211, 121
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "サウンド"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    EDITTEXT        IDC_SEHOR,66,11,97,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "横スクロール",IDC_BOOLSEHOR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,12,54,10
+    CONTROL         "上スクロール",IDC_BOOLSEUP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,31,54,10
+    EDITTEXT        IDC_SEUP,66,30,97,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "下スクロール",IDC_BOOLSEDOWN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,54,10
+    EDITTEXT        IDC_SEDOWN,66,49,97,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "実行",IDC_BOOLSEEXE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,69,30,10
+    EDITTEXT        IDC_SEEXE,66,68,97,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_SEHOR_EDIT,169,11,13,12
+    PUSHBUTTON      "...",IDC_SEUP_EDIT,169,30,13,12
+    PUSHBUTTON      "...",IDC_SEDOWN_EDIT,169,49,13,12
+    PUSHBUTTON      "...",IDC_SEEXE_EDIT,169,68,13,12
+    PUSHBUTTON      "♪",IDC_SEHOR_PLAY,189,11,13,12
+    PUSHBUTTON      "♪",IDC_SEUP_PLAY,189,30,13,12
+    PUSHBUTTON      "♪",IDC_SEDOWN_PLAY,189,49,13,12
+    PUSHBUTTON      "♪",IDC_SEEXE_PLAY,189,68,13,12
+    PUSHBUTTON      "初期状態に戻す",IDC_DEFAULT_SE,141,95,61,19
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "IDD_VERSION", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 100
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    "IDD_ITEM", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    "IDD_OPTION_ANIME", DIALOG
+    BEGIN
+        RIGHTMARGIN, 124
+        BOTTOMMARGIN, 206
+    END
+
+    "IDD_OPTION_INPUT", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 156
+    END
+
+    "IDD_OPTION_ACTION", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 172
+    END
+
+    "IDD_OPTION_MESSAGE", DIALOG
+    BEGIN
+        RIGHTMARGIN, 162
+        BOTTOMMARGIN, 136
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_OPTION_ANIME DLGINIT
+BEGIN
+    IDC_DARKTYPE, 0x403, 11, 0
+0xc388, 0xad82, 0xb582, 0xc882, 0xa282, "\000" 
+    IDC_DARKTYPE, 0x403, 5, 0
+0xc88a, 0xd588, "\000" 
+    IDC_DARKTYPE, 0x403, 5, 0
+0xda8f, 0xd78d, "\000" 
+    0
+END
+
+IDD_OPTION_MESSAGE DLGINIT
+BEGIN
+    IDC_MSGPOS, 0x403, 3, 0
+0xe38f, "\000" 
+    IDC_MSGPOS, 0x403, 5, 0
+0x8692, 0x9b89, "\000" 
+    IDC_MSGPOS, 0x403, 3, 0
+0xba89, "\000" 
+    IDC_MSGALIGN, 0x403, 3, 0
+0xb68d, "\000" 
+    IDC_MSGALIGN, 0x403, 5, 0
+0x8692, 0x9b89, "\000" 
+    IDC_MSGALIGN, 0x403, 3, 0
+0x4589, "\000" 
+    0
+END
+
+IDD_OPTION_INPUT DLGINIT
+BEGIN
+    IDC_KEY_COMBO, 0x403, 15, 0
+0x4183, 0x4383, 0x6583, 0x8083, 0xcc82, 0x5c95, 0xa68e, "\000" 
+    IDC_KEY_COMBO, 0x403, 5, 0
+0x4e8b, 0xae93, "\000" 
+    IDC_KEY_COMBO, 0x403, 15, 0
+0x7483, 0x4883, 0x8b83, 0x5f83, 0xf082, 0x4a8a, 0xad82, "\000" 
+    IDC_KEY_COMBO, 0x403, 5, 0
+0x4289, 0xb782, "\000" 
+    IDC_KEY_COMBO, 0x403, 3, 0
+0xb68d, "\000" 
+    IDC_KEY_COMBO, 0x403, 3, 0
+0x4589, "\000" 
+    IDC_KEY_COMBO, 0x403, 3, 0
+0xe38f, "\000" 
+    IDC_KEY_COMBO, 0x403, 3, 0
+0xba89, "\000" 
+    0
+END
+
+IDD_OPTION_ACTION DLGINIT
+BEGIN
+    IDC_DEFAULTPOS, 0x403, 11, 0
+0xc888, 0x4f91, 0xc682, 0xaf93, 0xb682, "\000" 
+    IDC_DEFAULTPOS, 0x403, 11, 0
+0xe690, 0xaa93, 0xc982, 0xdf96, 0xe982, "\000" 
+    IDC_HOTKEYACTION, 0x403, 5, 0
+0xc882, 0xb582, "\000" 
+    IDC_HOTKEYACTION, 0x403, 5, 0
+0x4e8b, 0xae93, "\000" 
+    IDC_HOTKEYACTION, 0x403, 15, 0
+0x7483, 0x4883, 0x8b83, 0x5f83, 0xf082, 0x4a8a, 0xad82, "\000" 
+    IDC_HOTKEYACTION, 0x403, 5, 0
+0x4289, 0xb782, "\000" 
+    IDC_CENTERPOS, 0x403, 9, 0
+0xe689, 0xca96, 0x8692, 0x9b89, "\000" 
+    IDC_CENTERPOS, 0x403, 9, 0
+0x4394, 0xd388, 0xc08d, 0x5795, "\000" 
+    IDC_CENTERPOS, 0x403, 13, 0
+0x7d83, 0x4583, 0x5883, 0xcc82, 0xca88, 0x7592, "\000" 
+    IDC_MOUSEL, 0x403, 5, 0
+0xc882, 0xb582, "\000" 
+    IDC_MOUSEL, 0x403, 5, 0
+0x4e8b, 0xae93, "\000" 
+    IDC_MOUSEL, 0x403, 9, 0
+0x7483, 0x4883, 0x8b83, 0x5f83, "\000" 
+    IDC_MOUSEL, 0x403, 5, 0
+0x4289, 0xb782, "\000" 
+    IDC_MOUSEL, 0x403, 9, 0
+0x8183, 0x6a83, 0x8583, 0x5b81, "\000" 
+    IDC_MOUSEM, 0x403, 5, 0
+0xc882, 0xb582, "\000" 
+    IDC_MOUSEM, 0x403, 5, 0
+0x4e8b, 0xae93, "\000" 
+    IDC_MOUSEM, 0x403, 9, 0
+0x7483, 0x4883, 0x8b83, 0x5f83, "\000" 
+    IDC_MOUSEM, 0x403, 5, 0
+0x4289, 0xb782, "\000" 
+    IDC_MOUSEM, 0x403, 9, 0
+0x8183, 0x6a83, 0x8583, 0x5b81, "\000" 
+    IDC_MOUSER, 0x403, 5, 0
+0xc882, 0xb582, "\000" 
+    IDC_MOUSER, 0x403, 5, 0
+0x4e8b, 0xae93, "\000" 
+    IDC_MOUSER, 0x403, 9, 0
+0x7483, 0x4883, 0x8b83, 0x5f83, "\000" 
+    IDC_MOUSER, 0x403, 5, 0
+0x4289, 0xb782, "\000" 
+    IDC_MOUSER, 0x403, 9, 0
+0x8183, 0x6a83, 0x8583, 0x5b81, "\000" 
+    IDC_INTDBLCLICK, 0x403, 7, 0
+0xb582, 0xc882, 0xa282, "\000" 
+    IDC_INTDBLCLICK, 0x403, 17, 0
+0x4589, 0x5f83, 0x7583, 0x8b83, 0x4e83, 0x8a83, 0x6283, 0x4e83, "\000" 
+    IDC_INTDBLCLICK, 0x403, 23, 0
+0x7a83, 0x4383, 0x5b81, 0x8b83, 0x5f83, 0x7583, 0x8b83, 0x4e83, 0x8a83, 
+0x6283, 0x4e83, "\000" 
+    IDC_ROUNDMOUSE_DIRECTION, 0x403, 11, 0
+0xbd94, 0x9e8e, 0x768c, 0xf189, 0xe882, "\000" 
+    IDC_ROUNDMOUSE_DIRECTION, 0x403, 9, 0
+0x9e8e, 0x768c, 0xf189, 0xe882, "\000" 
+    0
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

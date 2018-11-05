@@ -1,0 +1,12 @@
+DESCRIPTION		'SK Launch Utility DLL'
+SECTIONS
+			.sdata READ WRITE SHARED
+EXPORTS
+			HookDesktop
+			HookRDBLClick
+			HookMDBLClick
+			HookRoundMouse
+			UnHookDesktop
+			UnHookRDBLClick
+			UnHookMDBLClick
+			UnHookRoundMouse
